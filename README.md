@@ -1,7 +1,12 @@
+# Documentation utilisateur
+
+La documentation utilisateur est dans [user_doc.pdf](user_doc.pdf).
+
 # Déploiement avec Docker
+
 ## Dépendances
 - Docker
-- docker-compose 
+- docker-compose
 
 ## Lancement
 Dans un terminal à la racine du projet exécuter :
@@ -12,6 +17,10 @@ docker-compose up
 ```
 
 L'application est alors accessible à l'URL : <http://localhost:3000>
+
+Il peut arriver que le conteneur contenant l'application Spring se lance avant celui avec la base de données ce qui cause une erreur.
+
+Dans ce cas il faut faire CTRL+C pour stopper tous les conteneurs et refaire `docker-compose up`
 
 
 # Déploiement sans Docker

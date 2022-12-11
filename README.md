@@ -43,7 +43,7 @@ FLUSH PRIVILEGES;
 Dans un terminal à la racine du projet exécuter :
 
 ```shell
-java -jar ./devrep-projet1.jar
+java -jar ./devrep-projet1-0.0.1-SNAPSHOT.jar
 ```
 
 ## Lancer le frontend

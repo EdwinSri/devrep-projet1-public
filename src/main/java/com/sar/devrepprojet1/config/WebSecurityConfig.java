@@ -41,6 +41,8 @@ public class WebSecurityConfig {
                 .oauth2ResourceServer()
                 .jwt()
                 .jwtAuthenticationConverter(authenticationConverter());
+
+                
         return http.build();
     }
 
@@ -55,6 +57,7 @@ public class WebSecurityConfig {
         source.registerCorsConfiguration("/**", configuration);
         return source;
     }
+    
     @Bean
     public PasswordEncoder passwordEncoder() {
         int strength = 6;  // Strength is low for performance because we won't use this project in production

@@ -1,8 +1,17 @@
+### Sommaire
+
+1. [Documentation utilisateur](#documentation-utilisateur)
+2. [Déploiement avec Docker](#déploiement-avec-docker)
+3. [Déploiement sans Docker](#déploiement-sans-docker)
+4. [Mobioos Forge](#mobioos-forge)
+
 # Documentation utilisateur
 
 La documentation utilisateur est dans [user_doc.pdf](user_doc.pdf).
 
 # Déploiement avec Docker
+
+⚠️ Permet de lancer l'application avec toutes les fonctionnalités. Pas les variants générés avec Mobioos Forge. ⚠️
 
 ## Dépendances
 - Docker
@@ -47,6 +56,7 @@ java -jar ./devrep-projet1-0.0.1-SNAPSHOT.jar
 ```
 
 ## Lancer le frontend
+Dans le dossier frontend exécuter : 
 ```shell
 npm install
 npm run dev
@@ -58,5 +68,31 @@ L'application est accessible à l'URL : <http://localhost:3000>
 
 
 
-# Documentation de l'API REST OpenAPI
+## Documentation de l'API REST OpenAPI
+En lançant l'application sans docker on peut accéder à Swagger et bénéficier des ses fonctionnalités sur l'API.  
 Url Swagger: <http://localhost:8080/swagger-ui/index.html>
+
+
+# Mobioos Forge
+
+## Création de variants
+
+Se fait selon la procédure décrite dans la documentation de Mobioos Forge.
+
+## Lancement des variants
+
+### Backend
+À la racine du projet executer : 
+```shell
+mvn package -DskipTests
+java -jar target/devrep-projet1-0.0.1-SNAPSHOT.jar
+```
+
+### Frontend 
+Dans le dossier frontend exécuter :
+
+```shell
+npm rebuild
+npm run dev
+```
+

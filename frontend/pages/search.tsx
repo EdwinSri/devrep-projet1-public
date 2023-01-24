@@ -71,6 +71,12 @@ function ResultCard(props: ResultCardProps) {
   const result = props.result;
 
   const bookAppointment = async (slot: timeSlotsApi.TimeSlot) => {
+    let cannotBook = false;
+    if (cannotBook) {
+      showNotification({ color: 'red', message: 'Contactez le professionnel de santé pour prendre rendez-vous.' });
+      return;
+    }
+
     if (!isUser(user.data)) {
       showNotification({ color: 'red', message: 'Connectez-vous en tant qu\'utilisateur pour prendre rendez-vous.' });
       return;

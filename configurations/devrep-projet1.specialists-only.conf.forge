@@ -1,0 +1,20 @@
+{
+    "isAbsolutePath": false,
+    "resourcesPath": ".mobioos-forge/customization-file-resources",
+    "functionalityConfiguration": [
+        "2e15d408-3b64-498e-b1f9-5255fd5e7dc4",
+        "d2b6a5e0-e652-47e9-84c8-cdab678893c5",
+        "d1589802-54e1-40ad-b08d-e0b833f850e0",
+        "9698ff68-6acb-4ec4-999a-deeb4858004c",
+        "8b3150c4-c940-417d-a822-20a418dea511",
+        "c874ce7b-b5b8-44b4-bf48-5329bd1cf1ba",
+        "a4f61b93-0497-4778-bcf6-c11da41ed553",
+        "b7f00846-91a5-426a-a36b-a1a4af5ac4ab",
+        "41c346a9-1f58-488f-b40b-83caa51106e5",
+        "bae6f7d7-3d46-4b23-a8df-89ffef2044c0"
+    ],
+    "fileResourceConfiguration": [],
+    "textResourceConfiguration": [],
+    "assetResourceConfiguration": [],
+    "colorResourceConfiguration": []
+}

@@ -51,6 +51,13 @@ function RescheduleAppointmentModal(props: RescheduleAppointmentModalProps) {
   const freeSlots = useSWRCustom(timeSlotsApi.getProFreeSlots, [slot.professionalId]);
 
   const bookAppointment = async (newSlot: timeSlotsApi.TimeSlot) => {
+    let cannotBook = false;
+    cannotBook = true;
+    if (cannotBook) {
+      showNotification({ color: 'red', message: 'Contactez le professionnel de santé pour prendre rendez-vous.' });
+      return;
+    }
+
     try {
       await timeSlotsApi.rescheduleUserAppointment({
         oldTimeSlotId: slot.id,

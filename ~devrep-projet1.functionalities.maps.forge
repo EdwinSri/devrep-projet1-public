@@ -1,0 +1,601 @@
+{
+    "rangeSeeds": [
+        {
+            "file": "frontend/components/Navbar.tsx",
+            "seeds": [
+                {
+                    "id": "38d6f45d-a2bf-4d06-87bb-8b50eb4ebbfc",
+                    "featureKey": "1d3ba870-dd4c-4d30-a117-4d29f9c3efc4",
+                    "startLine": 161,
+                    "startColumn": 0,
+                    "endLine": 162,
+                    "endColumn": 0,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "69d4c692-c153-4de9-b8a9-72f20bc2ff76",
+                    "featureKey": "a4f61b93-0497-4778-bcf6-c11da41ed553",
+                    "startLine": 167,
+                    "startColumn": 0,
+                    "endLine": 168,
+                    "endColumn": 0,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "5bce906c-57a1-45c2-9970-bfd3209aed1b",
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "startLine": 172,
+                    "startColumn": 0,
+                    "endLine": 190,
+                    "endColumn": 14,
+                    "type": "Deletion",
+                    "isValidated": true
+                }
+            ]
+        },
+        {
+            "file": "frontend/pages/user/appointments.tsx",
+            "seeds": [
+                {
+                    "id": "dd5e9016-a9ee-4873-91cb-f69ed387e63f",
+                    "featureKey": "b7f00846-91a5-426a-a36b-a1a4af5ac4ab",
+                    "startLine": 41,
+                    "startColumn": 0,
+                    "endLine": 101,
+                    "endColumn": 0,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "fbb4aa25-7743-44ef-bd34-102400f27010",
+                    "featureKey": "c874ce7b-b5b8-44b4-bf48-5329bd1cf1ba",
+                    "startLine": 54,
+                    "startColumn": 0,
+                    "endLine": 55,
+                    "endColumn": 0,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "b96ff92a-db77-4a68-8153-c8c88c115018",
+                    "featureKey": "b7f00846-91a5-426a-a36b-a1a4af5ac4ab",
+                    "startLine": 168,
+                    "startColumn": 0,
+                    "endLine": 177,
+                    "endColumn": 0,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "98b4b5d4-6a0b-49d1-bb4d-3477e63ff772",
+                    "featureKey": "b7f00846-91a5-426a-a36b-a1a4af5ac4ab",
+                    "startLine": 181,
+                    "startColumn": 0,
+                    "endLine": 186,
+                    "endColumn": 0,
+                    "type": "Deletion",
+                    "isValidated": true
+                }
+            ]
+        },
+        {
+            "file": "frontend/pages/search.tsx",
+            "seeds": [
+                {
+                    "id": "e1042595-3275-4912-a69b-6fd1746f4b4f",
+                    "featureKey": "c874ce7b-b5b8-44b4-bf48-5329bd1cf1ba",
+                    "startLine": 73,
+                    "startColumn": 21,
+                    "endLine": 73,
+                    "endColumn": 26,
+                    "type": "Replacement",
+                    "libraryId": "-Without-PrisedeRDV-CannotBook",
+                    "isValidated": true
+                }
+            ]
+        },
+        {
+            "file": "frontend/pages/signup.tsx",
+            "seeds": [
+                {
+                    "id": "0fb5422a-dd17-42b7-bde5-59f7e8080ac1",
+                    "featureKey": "c304ce48-2d79-4f5d-8359-6988abfcc598",
+                    "startLine": 25,
+                    "startColumn": 0,
+                    "endLine": 26,
+                    "endColumn": 0,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "860af70f-eb3b-44c7-a50c-b87db00e4b86",
+                    "featureKey": "9698ff68-6acb-4ec4-999a-deeb4858004c",
+                    "startLine": 26,
+                    "startColumn": 0,
+                    "endLine": 27,
+                    "endColumn": 0,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "25e98e44-4c98-44ec-8a84-eda57115d8d6",
+                    "featureKey": "62f2b45c-4790-4ea0-906c-e07b9bc88b36",
+                    "startLine": 27,
+                    "startColumn": 0,
+                    "endLine": 28,
+                    "endColumn": 0,
+                    "type": "Deletion",
+                    "isValidated": true
+                }
+            ]
+        },
+        {
+            "file": "src/main/java/com/sar/devrepprojet1/config/WebSecurityConfig.java",
+            "seeds": [
+                {
+                    "id": "2c463bbc-9b55-4942-b794-e671b4a8ec62",
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "startLine": 35,
+                    "startColumn": 40,
+                    "endLine": 42,
+                    "endColumn": 71,
+                    "type": "Replacement",
+                    "libraryId": "-Without-Connection-SecurityFilterChain",
+                    "isValidated": true
+                },
+                {
+                    "id": "d945434b-d814-47a5-a282-557291534e31",
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "endLine": 77,
+                    "endColumn": 5,
+                    "type": "Deletion",
+                    "isValidated": true
+                }
+            ]
+        },
+        {
+            "file": "src/main/java/com/sar/devrepprojet1/controllers/TimeSlotController.java",
+            "seeds": [
+                {
+                    "id": "87484703-d124-48f9-9cf2-fdd655c46aaa",
+                    "featureKey": "c874ce7b-b5b8-44b4-bf48-5329bd1cf1ba",
+                    "startLine": 3,
+                    "startColumn": 63,
+                    "endLine": 4,
+                    "endColumn": 65,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "0a7206dc-867c-44b9-85af-010fe0edff12",
+                    "featureKey": "b7f00846-91a5-426a-a36b-a1a4af5ac4ab",
+                    "startLine": 4,
+                    "startColumn": 65,
+                    "endLine": 5,
+                    "endColumn": 73,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "1ef7b67d-5a35-47bc-ac24-e742cad8152c",
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "startLine": 27,
+                    "startColumn": 0,
+                    "endLine": 44,
+                    "endColumn": 5,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "69447814-5ed3-4c99-93a8-bacd0114f67f",
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "startLine": 46,
+                    "startColumn": 45,
+                    "endLine": 47,
+                    "endColumn": 54,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "94ae057b-30b3-47fc-9b1f-efb4afcc94c8",
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "startLine": 53,
+                    "startColumn": 53,
+                    "endLine": 54,
+                    "endColumn": 70,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "1f9fb36d-2293-4741-a12c-7833569969a2",
+                    "featureKey": "c874ce7b-b5b8-44b4-bf48-5329bd1cf1ba",
+                    "startLine": 60,
+                    "startColumn": 0,
+                    "endLine": 65,
+                    "endColumn": 5,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "0979f4f5-bf56-40c5-b60b-cd918761f548",
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "startLine": 60,
+                    "startColumn": 50,
+                    "endLine": 61,
+                    "endColumn": 70,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "9f4c6d40-8988-447c-90d1-b0361bf7b870",
+                    "featureKey": "b7f00846-91a5-426a-a36b-a1a4af5ac4ab",
+                    "startLine": 67,
+                    "startColumn": 0,
+                    "endLine": 72,
+                    "endColumn": 5,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "131fa4d3-2b4d-4ec1-878b-18d483363d67",
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "startLine": 67,
+                    "startColumn": 56,
+                    "endLine": 68,
+                    "endColumn": 70,
+                    "type": "Deletion",
+                    "isValidated": true
+                }
+            ]
+        },
+        {
+            "file": "src/main/java/com/sar/devrepprojet1/controllers/UserController.java",
+            "seeds": [
+                {
+                    "id": "69a84f3e-daa3-4b36-b20f-89d0967d14ba",
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "startLine": 26,
+                    "startColumn": 0,
+                    "endLine": 42,
+                    "endColumn": 5,
+                    "type": "Deletion",
+                    "isValidated": true
+                }
+            ]
+        },
+        {
+            "file": "src/main/java/com/sar/devrepprojet1/domain/timeslot/BookAppointmentForm.java",
+            "seeds": []
+        },
+        {
+            "file": "src/main/java/com/sar/devrepprojet1/services/timeslot/TimeSlotService.java",
+            "seeds": [
+                {
+                    "id": "239d57e4-0434-440a-8bde-fd5d477658a7",
+                    "featureKey": "c874ce7b-b5b8-44b4-bf48-5329bd1cf1ba",
+                    "startLine": 2,
+                    "startColumn": 63,
+                    "endLine": 3,
+                    "endColumn": 65,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "b6ef2c82-406d-457f-88d2-003b045054c8",
+                    "featureKey": "b7f00846-91a5-426a-a36b-a1a4af5ac4ab",
+                    "startLine": 3,
+                    "startColumn": 65,
+                    "endLine": 4,
+                    "endColumn": 73,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "98d18f5a-4789-490d-bee1-cf3e5e36f239",
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "startLine": 8,
+                    "startColumn": 75,
+                    "endLine": 9,
+                    "endColumn": 45,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "9d5cb1f5-efd8-4360-afd4-fa6ef8a8770e",
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "startLine": 32,
+                    "startColumn": 0,
+                    "endLine": 51,
+                    "endColumn": 5,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "f66504f1-1e77-4822-869f-ad2f609c9623",
+                    "featureKey": "b7f00846-91a5-426a-a36b-a1a4af5ac4ab",
+                    "startLine": 64,
+                    "startColumn": 0,
+                    "endLine": 83,
+                    "endColumn": 5,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "6dfaf721-a927-4ac7-abc2-acd831b8f388",
+                    "featureKey": "c874ce7b-b5b8-44b4-bf48-5329bd1cf1ba",
+                    "startLine": 85,
+                    "startColumn": 0,
+                    "endLine": 96,
+                    "endColumn": 5,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "62e28c56-dc14-40ab-9e2d-eeeef7392a4f",
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "startLine": 98,
+                    "startColumn": 0,
+                    "endLine": 102,
+                    "endColumn": 5,
+                    "type": "Deletion",
+                    "isValidated": true
+                }
+            ]
+        },
+        {
+            "file": "frontend/pages/_app.tsx",
+            "seeds": [
+                {
+                    "id": "c7ae0707-8591-4939-affb-956cb2ec7411",
+                    "featureKey": "bae6f7d7-3d46-4b23-a8df-89ffef2044c0",
+                    "startLine": 20,
+                    "startColumn": 0,
+                    "endLine": 21,
+                    "endColumn": 0,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "fc7b830f-0107-4a1f-af4e-1693ec333715",
+                    "featureKey": "8d40dfb2-a96d-4c60-a003-aacb902990d0",
+                    "startLine": 21,
+                    "startColumn": 0,
+                    "endLine": 22,
+                    "endColumn": 0,
+                    "type": "Deletion",
+                    "isValidated": true
+                }
+            ]
+        },
+        {
+            "file": "src/main/java/com/sar/devrepprojet1/services/user/UserService.java",
+            "seeds": [
+                {
+                    "id": "9e81137e-6ff5-41e5-b8f6-d9fd025f3103",
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "startLine": 1,
+                    "startColumn": 0,
+                    "endLine": 2,
+                    "endColumn": 46,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "a2cc5d1f-c6b4-483f-9b6b-5df7351698b3",
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "startLine": 4,
+                    "startColumn": 54,
+                    "endLine": 5,
+                    "endColumn": 58,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "ba12d5a7-5712-4d09-848b-b7fa6938171f",
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "startLine": 8,
+                    "startColumn": 50,
+                    "endLine": 9,
+                    "endColumn": 56,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "c1ca3dd2-2c6d-480d-80cf-598710fc7a4f",
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "startLine": 9,
+                    "startColumn": 56,
+                    "endLine": 10,
+                    "endColumn": 58,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "112c22f3-0d55-439b-a56c-51e76c61ddef",
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "startLine": 12,
+                    "startColumn": 57,
+                    "endLine": 13,
+                    "endColumn": 80,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "1b89b65e-71be-4fc2-a92f-ef7744acbc02",
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "startLine": 14,
+                    "startColumn": 71,
+                    "endLine": 15,
+                    "endColumn": 45,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "4e8db2fb-ee80-4347-a5c4-b15aff826cda",
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "startLine": 15,
+                    "startColumn": 45,
+                    "endLine": 19,
+                    "endColumn": 68,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "8289102c-c34d-46b7-9ff5-8316dbe97d21",
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "startLine": 29,
+                    "startColumn": 56,
+                    "endLine": 32,
+                    "endColumn": 56,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "e00654b2-5ff4-449f-846b-a5a04249a406",
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "startLine": 34,
+                    "startColumn": 91,
+                    "endLine": 34,
+                    "endColumn": 184,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "b6dbdfff-4d6f-4299-8e0c-16fb70d76806",
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "startLine": 36,
+                    "startColumn": 53,
+                    "endLine": 39,
+                    "endColumn": 53,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "5013098c-f805-4b50-851e-d584d31f4e06",
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "endLine": 66,
+                    "endColumn": 5,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "04df3254-fa03-492e-ad74-88b90fba4107",
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "startLine": 68,
+                    "startColumn": 1,
+                    "endLine": 121,
+                    "endColumn": 5,
+                    "type": "Deletion",
+                    "isValidated": true
+                }
+            ]
+        },
+        {
+            "file": "src/main/java/com/sar/devrepprojet1/utils/UserUtils.java",
+            "seeds": [
+                {
+                    "id": "cf32f039-47e6-4c4a-b0b5-1689f6422604",
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "startLine": 0,
+                    "startColumn": 0,
+                    "endLine": 18,
+                    "endColumn": 0,
+                    "type": "Deletion",
+                    "isValidated": true
+                }
+            ]
+        }
+    ],
+    "fileSeeds": [
+        {
+            "id": "a75a3a80-8b1b-4bc5-867a-cc84a5fa73e1",
+            "file": "src/main/java/com/sar/devrepprojet1/config/JwtConfiguration.java",
+            "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+            "isValidated": true,
+            "contentAnalysis": true
+        },
+        {
+            "id": "c5b53731-2282-4c40-ae0a-c6081979fb5f",
+            "file": "src/main/java/com/sar/devrepprojet1/config/JwtHelper.java",
+            "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+            "isValidated": true,
+            "contentAnalysis": true
+        },
+        {
+            "id": "b3b2d232-bdf9-44d8-8551-e819403bdbc9",
+            "file": "src/main/java/com/sar/devrepprojet1/config/UserDetailsImpl.java",
+            "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+            "isValidated": true,
+            "contentAnalysis": true
+        },
+        {
+            "id": "e40fb7d9-7351-41e0-8941-34c57b2257e1",
+            "file": "src/main/java/com/sar/devrepprojet1/config/UserDetailsServiceImpl.java",
+            "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+            "isValidated": true,
+            "contentAnalysis": true
+        },
+        {
+            "id": "f6db687d-5dc6-4e9b-8340-33e7a3e86d1a",
+            "file": "src/main/java/com/sar/devrepprojet1/controllers/AuthController.java",
+            "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+            "isValidated": true,
+            "contentAnalysis": true
+        },
+        {
+            "id": "3bcd050f-0f22-4b93-8b6b-964d626e9bf9",
+            "file": "src/main/java/com/sar/devrepprojet1/domain/user/form/LoginForm.java",
+            "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+            "isValidated": true,
+            "contentAnalysis": true
+        },
+        {
+            "id": "c0723300-a45d-4177-b58d-9ab6ebca4e4e",
+            "file": "src/main/java/com/sar/devrepprojet1/domain/user/form/LoginResult.java",
+            "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+            "isValidated": true,
+            "contentAnalysis": true
+        },
+        {
+            "id": "cee7ac53-e7be-4bcb-8fa3-610cd3754b74",
+            "file": "src/main/java/com/sar/devrepprojet1/domain/user/form/NewUserForm.java",
+            "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+            "isValidated": true,
+            "contentAnalysis": true
+        },
+        {
+            "id": "cf4ae5f2-96ee-4f16-897f-d8bf970b0707",
+            "file": "src/main/java/com/sar/devrepprojet1/services/exceptions/NewUserCreationFailedException.java",
+            "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+            "isValidated": true,
+            "contentAnalysis": true
+        },
+        {
+            "id": "2d0bf0ff-b944-42f3-b8eb-15bdcff47bbb",
+            "file": "src/main/java/com/sar/devrepprojet1/utils/UserUtils.java",
+            "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+            "isValidated": true,
+            "contentAnalysis": true
+        },
+        {
+            "id": "d5f25c1e-c386-4af1-a018-d959069a80c0",
+            "file": "src/main/java/com/sar/devrepprojet1/domain/timeslot/BookAppointmentForm.java",
+            "featureKey": "c874ce7b-b5b8-44b4-bf48-5329bd1cf1ba",
+            "isValidated": true,
+            "contentAnalysis": true
+        },
+        {
+            "id": "8282e616-5a8c-4084-8bee-14d4f86529b8",
+            "file": "src/main/java/com/sar/devrepprojet1/domain/timeslot/RescheduleAppointmentParams.java",
+            "featureKey": "b7f00846-91a5-426a-a36b-a1a4af5ac4ab",
+            "isValidated": true,
+            "contentAnalysis": true
+        }
+    ]
+}

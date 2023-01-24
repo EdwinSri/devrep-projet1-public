@@ -1,0 +1,950 @@
+{
+    "deletionPropagations": [
+        {
+            "file": "frontend/components/Navbar.tsx",
+            "propagations": [
+                {
+                    "featureKey": "a4f61b93-0497-4778-bcf6-c11da41ed553",
+                    "ranges": [
+                        {
+                            "propagationId": "69d4c692-c153-4de9-b8a9-72f20bc2ff76",
+                            "sourceId": "69d4c692-c153-4de9-b8a9-72f20bc2ff76",
+                            "startLine": 168,
+                            "startColumn": 0,
+                            "endLine": 169,
+                            "endColumn": 0,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        }
+                    ]
+                },
+                {
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "ranges": [
+                        {
+                            "propagationId": "5bce906c-57a1-45c2-9970-bfd3209aed1b",
+                            "sourceId": "5bce906c-57a1-45c2-9970-bfd3209aed1b",
+                            "startLine": 173,
+                            "startColumn": 0,
+                            "endLine": 191,
+                            "endColumn": 23,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        }
+                    ]
+                },
+                {
+                    "featureKey": "1d3ba870-dd4c-4d30-a117-4d29f9c3efc4",
+                    "ranges": [
+                        {
+                            "propagationId": "38d6f45d-a2bf-4d06-87bb-8b50eb4ebbfc",
+                            "sourceId": "38d6f45d-a2bf-4d06-87bb-8b50eb4ebbfc",
+                            "startLine": 161,
+                            "startColumn": 0,
+                            "endLine": 162,
+                            "endColumn": 0,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "frontend/pages/user/appointments.tsx",
+            "propagations": [
+                {
+                    "featureKey": "c874ce7b-b5b8-44b4-bf48-5329bd1cf1ba",
+                    "ranges": [
+                        {
+                            "propagationId": "fbb4aa25-7743-44ef-bd34-102400f27010",
+                            "sourceId": "fbb4aa25-7743-44ef-bd34-102400f27010",
+                            "startLine": 54,
+                            "startColumn": 0,
+                            "endLine": 55,
+                            "endColumn": 0,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        }
+                    ]
+                },
+                {
+                    "featureKey": "b7f00846-91a5-426a-a36b-a1a4af5ac4ab",
+                    "ranges": [
+                        {
+                            "propagationId": "b96ff92a-db77-4a68-8153-c8c88c115018",
+                            "sourceId": "b96ff92a-db77-4a68-8153-c8c88c115018",
+                            "startLine": 168,
+                            "startColumn": 0,
+                            "endLine": 177,
+                            "endColumn": 0,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        },
+                        {
+                            "propagationId": "98b4b5d4-6a0b-49d1-bb4d-3477e63ff772",
+                            "sourceId": "98b4b5d4-6a0b-49d1-bb4d-3477e63ff772",
+                            "startLine": 181,
+                            "startColumn": 0,
+                            "endLine": 186,
+                            "endColumn": 0,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        },
+                        {
+                            "propagationId": "dd5e9016-a9ee-4873-91cb-f69ed387e63f",
+                            "sourceId": "dd5e9016-a9ee-4873-91cb-f69ed387e63f",
+                            "startLine": 41,
+                            "startColumn": 0,
+                            "endLine": 101,
+                            "endColumn": 0,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "frontend/pages/signup.tsx",
+            "propagations": [
+                {
+                    "featureKey": "c304ce48-2d79-4f5d-8359-6988abfcc598",
+                    "ranges": [
+                        {
+                            "propagationId": "0fb5422a-dd17-42b7-bde5-59f7e8080ac1",
+                            "sourceId": "0fb5422a-dd17-42b7-bde5-59f7e8080ac1",
+                            "startLine": 25,
+                            "startColumn": 0,
+                            "endLine": 26,
+                            "endColumn": 0,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        }
+                    ]
+                },
+                {
+                    "featureKey": "9698ff68-6acb-4ec4-999a-deeb4858004c",
+                    "ranges": [
+                        {
+                            "propagationId": "860af70f-eb3b-44c7-a50c-b87db00e4b86",
+                            "sourceId": "860af70f-eb3b-44c7-a50c-b87db00e4b86",
+                            "startLine": 26,
+                            "startColumn": 0,
+                            "endLine": 27,
+                            "endColumn": 0,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        }
+                    ]
+                },
+                {
+                    "featureKey": "62f2b45c-4790-4ea0-906c-e07b9bc88b36",
+                    "ranges": [
+                        {
+                            "propagationId": "25e98e44-4c98-44ec-8a84-eda57115d8d6",
+                            "sourceId": "25e98e44-4c98-44ec-8a84-eda57115d8d6",
+                            "startLine": 27,
+                            "startColumn": 0,
+                            "endLine": 28,
+                            "endColumn": 0,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "src/main/java/com/sar/devrepprojet1/config/JwtConfiguration.java",
+            "propagations": [
+                {
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "ranges": [
+                        {
+                            "propagationId": "8d5925f7-b2b2-4c35-8ca8-5e6216d78b3e",
+                            "sourceId": "a75a3a80-8b1b-4bc5-867a-cc84a5fa73e1",
+                            "startLine": 0,
+                            "startColumn": 0,
+                            "endLine": 81,
+                            "endColumn": 0,
+                            "isValidated": true,
+                            "isFromMarker": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "src/main/java/com/sar/devrepprojet1/config/JwtHelper.java",
+            "propagations": [
+                {
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "ranges": [
+                        {
+                            "propagationId": "186d12fd-b1ac-47bf-ab8e-2cb69e93b968",
+                            "sourceId": "c5b53731-2282-4c40-ae0a-c6081979fb5f",
+                            "startLine": 0,
+                            "startColumn": 0,
+                            "endLine": 43,
+                            "endColumn": 0,
+                            "isValidated": true,
+                            "isFromMarker": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "src/main/java/com/sar/devrepprojet1/config/UserDetailsImpl.java",
+            "propagations": [
+                {
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "ranges": [
+                        {
+                            "propagationId": "d8cd76e5-a9c2-4674-8cbc-7c8237de4d2d",
+                            "sourceId": "b3b2d232-bdf9-44d8-8551-e819403bdbc9",
+                            "startLine": 0,
+                            "startColumn": 0,
+                            "endLine": 53,
+                            "endColumn": 0,
+                            "isValidated": true,
+                            "isFromMarker": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "src/main/java/com/sar/devrepprojet1/config/UserDetailsServiceImpl.java",
+            "propagations": [
+                {
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "ranges": [
+                        {
+                            "propagationId": "21804300-46a5-452e-a805-6762d5e19900",
+                            "sourceId": "e40fb7d9-7351-41e0-8941-34c57b2257e1",
+                            "startLine": 0,
+                            "startColumn": 0,
+                            "endLine": 27,
+                            "endColumn": 0,
+                            "isValidated": true,
+                            "isFromMarker": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "src/main/java/com/sar/devrepprojet1/controllers/AuthController.java",
+            "propagations": [
+                {
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "ranges": [
+                        {
+                            "propagationId": "72e5320b-5475-42a0-aa54-881685cf5028",
+                            "sourceId": "f6db687d-5dc6-4e9b-8340-33e7a3e86d1a",
+                            "startLine": 0,
+                            "startColumn": 0,
+                            "endLine": 45,
+                            "endColumn": 0,
+                            "isValidated": true,
+                            "isFromMarker": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "src/main/java/com/sar/devrepprojet1/controllers/TimeSlotController.java",
+            "propagations": [
+                {
+                    "featureKey": "c874ce7b-b5b8-44b4-bf48-5329bd1cf1ba",
+                    "ranges": [
+                        {
+                            "propagationId": "87484703-d124-48f9-9cf2-fdd655c46aaa",
+                            "sourceId": "87484703-d124-48f9-9cf2-fdd655c46aaa",
+                            "startLine": 3,
+                            "startColumn": 63,
+                            "endLine": 4,
+                            "endColumn": 65,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        },
+                        {
+                            "propagationId": "1f9fb36d-2293-4741-a12c-7833569969a2",
+                            "sourceId": "1f9fb36d-2293-4741-a12c-7833569969a2",
+                            "startLine": 60,
+                            "startColumn": 0,
+                            "endLine": 65,
+                            "endColumn": 5,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        }
+                    ]
+                },
+                {
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "ranges": [
+                        {
+                            "propagationId": "69447814-5ed3-4c99-93a8-bacd0114f67f",
+                            "sourceId": "69447814-5ed3-4c99-93a8-bacd0114f67f",
+                            "startLine": 46,
+                            "startColumn": 45,
+                            "endLine": 47,
+                            "endColumn": 54,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        },
+                        {
+                            "propagationId": "94ae057b-30b3-47fc-9b1f-efb4afcc94c8",
+                            "sourceId": "94ae057b-30b3-47fc-9b1f-efb4afcc94c8",
+                            "startLine": 53,
+                            "startColumn": 53,
+                            "endLine": 54,
+                            "endColumn": 70,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        },
+                        {
+                            "propagationId": "0979f4f5-bf56-40c5-b60b-cd918761f548",
+                            "sourceId": "0979f4f5-bf56-40c5-b60b-cd918761f548",
+                            "startLine": 60,
+                            "startColumn": 50,
+                            "endLine": 61,
+                            "endColumn": 70,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        },
+                        {
+                            "propagationId": "131fa4d3-2b4d-4ec1-878b-18d483363d67",
+                            "sourceId": "131fa4d3-2b4d-4ec1-878b-18d483363d67",
+                            "startLine": 67,
+                            "startColumn": 56,
+                            "endLine": 68,
+                            "endColumn": 70,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        },
+                        {
+                            "propagationId": "1ef7b67d-5a35-47bc-ac24-e742cad8152c",
+                            "sourceId": "1ef7b67d-5a35-47bc-ac24-e742cad8152c",
+                            "startLine": 27,
+                            "startColumn": 0,
+                            "endLine": 44,
+                            "endColumn": 5,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        }
+                    ]
+                },
+                {
+                    "featureKey": "b7f00846-91a5-426a-a36b-a1a4af5ac4ab",
+                    "ranges": [
+                        {
+                            "propagationId": "0a7206dc-867c-44b9-85af-010fe0edff12",
+                            "sourceId": "0a7206dc-867c-44b9-85af-010fe0edff12",
+                            "startLine": 4,
+                            "startColumn": 65,
+                            "endLine": 5,
+                            "endColumn": 73,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        },
+                        {
+                            "propagationId": "9f4c6d40-8988-447c-90d1-b0361bf7b870",
+                            "sourceId": "9f4c6d40-8988-447c-90d1-b0361bf7b870",
+                            "startLine": 67,
+                            "startColumn": 0,
+                            "endLine": 72,
+                            "endColumn": 5,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "src/main/java/com/sar/devrepprojet1/domain/user/form/LoginForm.java",
+            "propagations": [
+                {
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "ranges": [
+                        {
+                            "propagationId": "422e0767-05a8-4da0-9ad5-ba5f19e30d1b",
+                            "sourceId": "3bcd050f-0f22-4b93-8b6b-964d626e9bf9",
+                            "startLine": 0,
+                            "startColumn": 0,
+                            "endLine": 23,
+                            "endColumn": 0,
+                            "isValidated": true,
+                            "isFromMarker": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "src/main/java/com/sar/devrepprojet1/domain/user/form/LoginResult.java",
+            "propagations": [
+                {
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "ranges": [
+                        {
+                            "propagationId": "262e9518-5951-4122-b8a8-bfb90e2d64d6",
+                            "sourceId": "c0723300-a45d-4177-b58d-9ab6ebca4e4e",
+                            "startLine": 0,
+                            "startColumn": 0,
+                            "endLine": 18,
+                            "endColumn": 0,
+                            "isValidated": true,
+                            "isFromMarker": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "src/main/java/com/sar/devrepprojet1/domain/user/form/NewUserForm.java",
+            "propagations": [
+                {
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "ranges": [
+                        {
+                            "propagationId": "5f5e188e-ab05-415f-bb4c-9ea77c87fe71",
+                            "sourceId": "cee7ac53-e7be-4bcb-8fa3-610cd3754b74",
+                            "startLine": 0,
+                            "startColumn": 0,
+                            "endLine": 71,
+                            "endColumn": 0,
+                            "isValidated": true,
+                            "isFromMarker": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "src/main/java/com/sar/devrepprojet1/services/exceptions/NewUserCreationFailedException.java",
+            "propagations": [
+                {
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "ranges": [
+                        {
+                            "propagationId": "08e08e09-1ef4-43d3-9d0f-213ba39882b1",
+                            "sourceId": "cf4ae5f2-96ee-4f16-897f-d8bf970b0707",
+                            "startLine": 0,
+                            "startColumn": 0,
+                            "endLine": 5,
+                            "endColumn": 0,
+                            "isValidated": true,
+                            "isFromMarker": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "src/main/java/com/sar/devrepprojet1/domain/timeslot/BookAppointmentForm.java",
+            "propagations": [
+                {
+                    "featureKey": "c874ce7b-b5b8-44b4-bf48-5329bd1cf1ba",
+                    "ranges": [
+                        {
+                            "propagationId": "08d4ec57-4a8a-4c95-a4ea-666a9a9b507b",
+                            "sourceId": "d5f25c1e-c386-4af1-a018-d959069a80c0",
+                            "startLine": 0,
+                            "startColumn": 0,
+                            "endLine": 13,
+                            "endColumn": 0,
+                            "isValidated": true,
+                            "isFromMarker": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "src/main/java/com/sar/devrepprojet1/services/timeslot/TimeSlotService.java",
+            "propagations": [
+                {
+                    "featureKey": "c874ce7b-b5b8-44b4-bf48-5329bd1cf1ba",
+                    "ranges": [
+                        {
+                            "propagationId": "6dfaf721-a927-4ac7-abc2-acd831b8f388",
+                            "sourceId": "6dfaf721-a927-4ac7-abc2-acd831b8f388",
+                            "startLine": 85,
+                            "startColumn": 0,
+                            "endLine": 96,
+                            "endColumn": 5,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        },
+                        {
+                            "propagationId": "239d57e4-0434-440a-8bde-fd5d477658a7",
+                            "sourceId": "239d57e4-0434-440a-8bde-fd5d477658a7",
+                            "startLine": 2,
+                            "startColumn": 63,
+                            "endLine": 3,
+                            "endColumn": 65,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        }
+                    ]
+                },
+                {
+                    "featureKey": "b7f00846-91a5-426a-a36b-a1a4af5ac4ab",
+                    "ranges": [
+                        {
+                            "propagationId": "b6ef2c82-406d-457f-88d2-003b045054c8",
+                            "sourceId": "b6ef2c82-406d-457f-88d2-003b045054c8",
+                            "startLine": 3,
+                            "startColumn": 65,
+                            "endLine": 4,
+                            "endColumn": 73,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        },
+                        {
+                            "propagationId": "f66504f1-1e77-4822-869f-ad2f609c9623",
+                            "sourceId": "f66504f1-1e77-4822-869f-ad2f609c9623",
+                            "startLine": 64,
+                            "startColumn": 0,
+                            "endLine": 83,
+                            "endColumn": 5,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        }
+                    ]
+                },
+                {
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "ranges": [
+                        {
+                            "propagationId": "98d18f5a-4789-490d-bee1-cf3e5e36f239",
+                            "sourceId": "98d18f5a-4789-490d-bee1-cf3e5e36f239",
+                            "startLine": 8,
+                            "startColumn": 75,
+                            "endLine": 9,
+                            "endColumn": 45,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        },
+                        {
+                            "propagationId": "9d5cb1f5-efd8-4360-afd4-fa6ef8a8770e",
+                            "sourceId": "9d5cb1f5-efd8-4360-afd4-fa6ef8a8770e",
+                            "startLine": 32,
+                            "startColumn": 0,
+                            "endLine": 51,
+                            "endColumn": 5,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        },
+                        {
+                            "propagationId": "62e28c56-dc14-40ab-9e2d-eeeef7392a4f",
+                            "sourceId": "62e28c56-dc14-40ab-9e2d-eeeef7392a4f",
+                            "startLine": 98,
+                            "startColumn": 0,
+                            "endLine": 102,
+                            "endColumn": 5,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "src/main/java/com/sar/devrepprojet1/domain/timeslot/RescheduleAppointmentParams.java",
+            "propagations": [
+                {
+                    "featureKey": "b7f00846-91a5-426a-a36b-a1a4af5ac4ab",
+                    "ranges": [
+                        {
+                            "propagationId": "b7711101-cdf7-4cd7-ba99-c84171c0f9b9",
+                            "sourceId": "8282e616-5a8c-4084-8bee-14d4f86529b8",
+                            "startLine": 0,
+                            "startColumn": 0,
+                            "endLine": 22,
+                            "endColumn": 0,
+                            "isValidated": true,
+                            "isFromMarker": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "frontend/pages/_app.tsx",
+            "propagations": [
+                {
+                    "featureKey": "bae6f7d7-3d46-4b23-a8df-89ffef2044c0",
+                    "ranges": [
+                        {
+                            "propagationId": "c7ae0707-8591-4939-affb-956cb2ec7411",
+                            "sourceId": "c7ae0707-8591-4939-affb-956cb2ec7411",
+                            "startLine": 20,
+                            "startColumn": 0,
+                            "endLine": 21,
+                            "endColumn": 0,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        }
+                    ]
+                },
+                {
+                    "featureKey": "8d40dfb2-a96d-4c60-a003-aacb902990d0",
+                    "ranges": [
+                        {
+                            "propagationId": "fc7b830f-0107-4a1f-af4e-1693ec333715",
+                            "sourceId": "fc7b830f-0107-4a1f-af4e-1693ec333715",
+                            "startLine": 21,
+                            "startColumn": 0,
+                            "endLine": 22,
+                            "endColumn": 0,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "src/main/java/com/sar/devrepprojet1/services/user/UserService.java",
+            "propagations": [
+                {
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "ranges": [
+                        {
+                            "propagationId": "9e81137e-6ff5-41e5-b8f6-d9fd025f3103",
+                            "sourceId": "9e81137e-6ff5-41e5-b8f6-d9fd025f3103",
+                            "startLine": 1,
+                            "startColumn": 0,
+                            "endLine": 2,
+                            "endColumn": 46,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        },
+                        {
+                            "propagationId": "a2cc5d1f-c6b4-483f-9b6b-5df7351698b3",
+                            "sourceId": "a2cc5d1f-c6b4-483f-9b6b-5df7351698b3",
+                            "startLine": 4,
+                            "startColumn": 54,
+                            "endLine": 5,
+                            "endColumn": 58,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        },
+                        {
+                            "propagationId": "ba12d5a7-5712-4d09-848b-b7fa6938171f",
+                            "sourceId": "ba12d5a7-5712-4d09-848b-b7fa6938171f",
+                            "startLine": 8,
+                            "startColumn": 50,
+                            "endLine": 9,
+                            "endColumn": 56,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        },
+                        {
+                            "propagationId": "c1ca3dd2-2c6d-480d-80cf-598710fc7a4f",
+                            "sourceId": "c1ca3dd2-2c6d-480d-80cf-598710fc7a4f",
+                            "startLine": 9,
+                            "startColumn": 56,
+                            "endLine": 10,
+                            "endColumn": 58,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        },
+                        {
+                            "propagationId": "112c22f3-0d55-439b-a56c-51e76c61ddef",
+                            "sourceId": "112c22f3-0d55-439b-a56c-51e76c61ddef",
+                            "startLine": 12,
+                            "startColumn": 57,
+                            "endLine": 13,
+                            "endColumn": 80,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        },
+                        {
+                            "propagationId": "1b89b65e-71be-4fc2-a92f-ef7744acbc02",
+                            "sourceId": "1b89b65e-71be-4fc2-a92f-ef7744acbc02",
+                            "startLine": 14,
+                            "startColumn": 71,
+                            "endLine": 15,
+                            "endColumn": 45,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        },
+                        {
+                            "propagationId": "4e8db2fb-ee80-4347-a5c4-b15aff826cda",
+                            "sourceId": "4e8db2fb-ee80-4347-a5c4-b15aff826cda",
+                            "startLine": 15,
+                            "startColumn": 45,
+                            "endLine": 19,
+                            "endColumn": 68,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        },
+                        {
+                            "propagationId": "8289102c-c34d-46b7-9ff5-8316dbe97d21",
+                            "sourceId": "8289102c-c34d-46b7-9ff5-8316dbe97d21",
+                            "startLine": 29,
+                            "startColumn": 56,
+                            "endLine": 32,
+                            "endColumn": 56,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        },
+                        {
+                            "propagationId": "b6dbdfff-4d6f-4299-8e0c-16fb70d76806",
+                            "sourceId": "b6dbdfff-4d6f-4299-8e0c-16fb70d76806",
+                            "startLine": 36,
+                            "startColumn": 53,
+                            "endLine": 39,
+                            "endColumn": 53,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        },
+                        {
+                            "propagationId": "e00654b2-5ff4-449f-846b-a5a04249a406",
+                            "sourceId": "e00654b2-5ff4-449f-846b-a5a04249a406",
+                            "startLine": 34,
+                            "startColumn": 91,
+                            "endLine": 34,
+                            "endColumn": 184,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        },
+                        {
+                            "propagationId": "5013098c-f805-4b50-851e-d584d31f4e06",
+                            "sourceId": "5013098c-f805-4b50-851e-d584d31f4e06",
+                            "startLine": 42,
+                            "startColumn": 4,
+                            "endLine": 66,
+                            "endColumn": 5,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        },
+                        {
+                            "propagationId": "04df3254-fa03-492e-ad74-88b90fba4107",
+                            "sourceId": "04df3254-fa03-492e-ad74-88b90fba4107",
+                            "startLine": 68,
+                            "startColumn": 1,
+                            "endLine": 121,
+                            "endColumn": 5,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "src/main/java/com/sar/devrepprojet1/utils/UserUtils.java",
+            "propagations": [
+                {
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "ranges": [
+                        {
+                            "propagationId": "cf32f039-47e6-4c4a-b0b5-1689f6422604",
+                            "sourceId": "cf32f039-47e6-4c4a-b0b5-1689f6422604",
+                            "startLine": 0,
+                            "startColumn": 0,
+                            "endLine": 18,
+                            "endColumn": 0,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "src/main/java/com/sar/devrepprojet1/config/WebSecurityConfig.java",
+            "propagations": [
+                {
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "ranges": [
+                        {
+                            "propagationId": "d945434b-d814-47a5-a282-557291534e31",
+                            "sourceId": "d945434b-d814-47a5-a282-557291534e31",
+                            "startLine": 60,
+                            "startColumn": 4,
+                            "endLine": 77,
+                            "endColumn": 5,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "src/main/java/com/sar/devrepprojet1/controllers/UserController.java",
+            "propagations": [
+                {
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "ranges": [
+                        {
+                            "propagationId": "69a84f3e-daa3-4b36-b20f-89d0967d14ba",
+                            "sourceId": "69a84f3e-daa3-4b36-b20f-89d0967d14ba",
+                            "startLine": 26,
+                            "startColumn": 0,
+                            "endLine": 42,
+                            "endColumn": 5,
+                            "isValidated": true,
+                            "isFromMarker": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "replacementPropagations": [
+        {
+            "file": "frontend/pages/search.tsx",
+            "propagations": [
+                {
+                    "featureKey": "c874ce7b-b5b8-44b4-bf48-5329bd1cf1ba",
+                    "ranges": [
+                        {
+                            "propagationId": "e1042595-3275-4912-a69b-6fd1746f4b4f",
+                            "sourceId": "e1042595-3275-4912-a69b-6fd1746f4b4f",
+                            "startLine": 73,
+                            "startColumn": 21,
+                            "endLine": 73,
+                            "endColumn": 26,
+                            "isValidated": true,
+                            "isFromMarker": true,
+                            "libraryId": "-Without-PrisedeRDV-CannotBook"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file": "src/main/java/com/sar/devrepprojet1/config/WebSecurityConfig.java",
+            "propagations": [
+                {
+                    "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+                    "ranges": [
+                        {
+                            "propagationId": "2c463bbc-9b55-4942-b794-e671b4a8ec62",
+                            "sourceId": "2c463bbc-9b55-4942-b794-e671b4a8ec62",
+                            "startLine": 35,
+                            "startColumn": 40,
+                            "endLine": 42,
+                            "endColumn": 71,
+                            "isValidated": true,
+                            "isFromMarker": true,
+                            "libraryId": "-Without-Connection-SecurityFilterChain"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "resourcePropagations": [],
+    "pathPropagations": [
+        {
+            "propagationId": "a75a3a80-8b1b-4bc5-867a-cc84a5fa73e1",
+            "sourceId": "a75a3a80-8b1b-4bc5-867a-cc84a5fa73e1",
+            "propagatedPath": "src/main/java/com/sar/devrepprojet1/config/JwtConfiguration.java",
+            "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+            "isValidated": true,
+            "isFromMarker": true,
+            "contentAnalysis": true
+        },
+        {
+            "propagationId": "c5b53731-2282-4c40-ae0a-c6081979fb5f",
+            "sourceId": "c5b53731-2282-4c40-ae0a-c6081979fb5f",
+            "propagatedPath": "src/main/java/com/sar/devrepprojet1/config/JwtHelper.java",
+            "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+            "isValidated": true,
+            "isFromMarker": true,
+            "contentAnalysis": true
+        },
+        {
+            "propagationId": "b3b2d232-bdf9-44d8-8551-e819403bdbc9",
+            "sourceId": "b3b2d232-bdf9-44d8-8551-e819403bdbc9",
+            "propagatedPath": "src/main/java/com/sar/devrepprojet1/config/UserDetailsImpl.java",
+            "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+            "isValidated": true,
+            "isFromMarker": true,
+            "contentAnalysis": true
+        },
+        {
+            "propagationId": "e40fb7d9-7351-41e0-8941-34c57b2257e1",
+            "sourceId": "e40fb7d9-7351-41e0-8941-34c57b2257e1",
+            "propagatedPath": "src/main/java/com/sar/devrepprojet1/config/UserDetailsServiceImpl.java",
+            "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+            "isValidated": true,
+            "isFromMarker": true,
+            "contentAnalysis": true
+        },
+        {
+            "propagationId": "f6db687d-5dc6-4e9b-8340-33e7a3e86d1a",
+            "sourceId": "f6db687d-5dc6-4e9b-8340-33e7a3e86d1a",
+            "propagatedPath": "src/main/java/com/sar/devrepprojet1/controllers/AuthController.java",
+            "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+            "isValidated": true,
+            "isFromMarker": true,
+            "contentAnalysis": true
+        },
+        {
+            "propagationId": "3bcd050f-0f22-4b93-8b6b-964d626e9bf9",
+            "sourceId": "3bcd050f-0f22-4b93-8b6b-964d626e9bf9",
+            "propagatedPath": "src/main/java/com/sar/devrepprojet1/domain/user/form/LoginForm.java",
+            "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+            "isValidated": true,
+            "isFromMarker": true,
+            "contentAnalysis": true
+        },
+        {
+            "propagationId": "c0723300-a45d-4177-b58d-9ab6ebca4e4e",
+            "sourceId": "c0723300-a45d-4177-b58d-9ab6ebca4e4e",
+            "propagatedPath": "src/main/java/com/sar/devrepprojet1/domain/user/form/LoginResult.java",
+            "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+            "isValidated": true,
+            "isFromMarker": true,
+            "contentAnalysis": true
+        },
+        {
+            "propagationId": "cee7ac53-e7be-4bcb-8fa3-610cd3754b74",
+            "sourceId": "cee7ac53-e7be-4bcb-8fa3-610cd3754b74",
+            "propagatedPath": "src/main/java/com/sar/devrepprojet1/domain/user/form/NewUserForm.java",
+            "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+            "isValidated": true,
+            "isFromMarker": true,
+            "contentAnalysis": true
+        },
+        {
+            "propagationId": "cf4ae5f2-96ee-4f16-897f-d8bf970b0707",
+            "sourceId": "cf4ae5f2-96ee-4f16-897f-d8bf970b0707",
+            "propagatedPath": "src/main/java/com/sar/devrepprojet1/services/exceptions/NewUserCreationFailedException.java",
+            "featureKey": "8b3150c4-c940-417d-a822-20a418dea511",
+            "isValidated": true,
+            "isFromMarker": true,
+            "contentAnalysis": true
+        },
+        {
+            "propagationId": "d5f25c1e-c386-4af1-a018-d959069a80c0",
+            "sourceId": "d5f25c1e-c386-4af1-a018-d959069a80c0",
+            "propagatedPath": "src/main/java/com/sar/devrepprojet1/domain/timeslot/BookAppointmentForm.java",
+            "featureKey": "c874ce7b-b5b8-44b4-bf48-5329bd1cf1ba",
+            "isValidated": true,
+            "isFromMarker": true,
+            "contentAnalysis": true
+        },
+        {
+            "propagationId": "8282e616-5a8c-4084-8bee-14d4f86529b8",
+            "sourceId": "8282e616-5a8c-4084-8bee-14d4f86529b8",
+            "propagatedPath": "src/main/java/com/sar/devrepprojet1/domain/timeslot/RescheduleAppointmentParams.java",
+            "featureKey": "b7f00846-91a5-426a-a36b-a1a4af5ac4ab",
+            "isValidated": true,
+            "isFromMarker": true,
+            "contentAnalysis": true
+        }
+    ]
+}

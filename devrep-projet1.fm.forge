@@ -1,0 +1,223 @@
+{
+    "core": {
+        "key": "2e15d408-3b64-498e-b1f9-5255fd5e7dc4",
+        "name": "devrep-projet1",
+        "type": "Core",
+        "parent": "-1",
+        "parentRelation": "Normal",
+        "presence": "Mandatory",
+        "lgFile": "",
+        "role": "",
+        "hexColor": "",
+        "help": "",
+        "nodeWeight": -1
+    },
+    "functionalities": [
+        {
+            "key": "d2b6a5e0-e652-47e9-84c8-cdab678893c5",
+            "name": "Type de professionnel",
+            "type": "Functionality feature",
+            "parent": "2e15d408-3b64-498e-b1f9-5255fd5e7dc4",
+            "parentRelation": "Normal",
+            "presence": "Mandatory",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#51ebd9",
+            "help": "",
+            "nodeWeight": -1
+        },
+        {
+            "key": "f9145023-72eb-4195-bbb6-8e1e14abae9d",
+            "name": "Saisie de la spécialité",
+            "type": "Functionality feature",
+            "parent": "d2b6a5e0-e652-47e9-84c8-cdab678893c5",
+            "parentRelation": "Xor",
+            "presence": "Normal",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#fc57db",
+            "help": "",
+            "nodeWeight": -1
+        },
+        {
+            "key": "d1589802-54e1-40ad-b08d-e0b833f850e0",
+            "name": "Selection de la spécialité",
+            "type": "Functionality feature",
+            "parent": "d2b6a5e0-e652-47e9-84c8-cdab678893c5",
+            "parentRelation": "Xor",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#4a68f7",
+            "help": "",
+            "nodeWeight": -1
+        },
+        {
+            "key": "9698ff68-6acb-4ec4-999a-deeb4858004c",
+            "name": "Médecin Spécialiste",
+            "type": "Functionality feature",
+            "parent": "d1589802-54e1-40ad-b08d-e0b833f850e0",
+            "parentRelation": "Xor",
+            "presence": "Normal",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#f609e4",
+            "help": "",
+            "nodeWeight": -1
+        },
+        {
+            "key": "c304ce48-2d79-4f5d-8359-6988abfcc598",
+            "name": "Médecin Généraliste",
+            "type": "Functionality feature",
+            "parent": "d1589802-54e1-40ad-b08d-e0b833f850e0",
+            "parentRelation": "Xor",
+            "presence": "Normal",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#bebbb1",
+            "help": "",
+            "nodeWeight": -1
+        },
+        {
+            "key": "62f2b45c-4790-4ea0-906c-e07b9bc88b36",
+            "name": "Infirmier",
+            "type": "Functionality feature",
+            "parent": "d1589802-54e1-40ad-b08d-e0b833f850e0",
+            "parentRelation": "Xor",
+            "presence": "Normal",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#fae8b3",
+            "help": "",
+            "nodeWeight": -1
+        },
+        {
+            "key": "8b3150c4-c940-417d-a822-20a418dea511",
+            "name": "Connection à l'application",
+            "type": "Functionality feature",
+            "parent": "2e15d408-3b64-498e-b1f9-5255fd5e7dc4",
+            "parentRelation": "Normal",
+            "presence": "Optional",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#81fe95",
+            "help": "",
+            "nodeWeight": -1
+        },
+        {
+            "key": "c874ce7b-b5b8-44b4-bf48-5329bd1cf1ba",
+            "name": "Prise de RDV",
+            "type": "Functionality feature",
+            "parent": "8b3150c4-c940-417d-a822-20a418dea511",
+            "parentRelation": "Or",
+            "presence": "Normal",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#d276b1",
+            "help": "",
+            "nodeWeight": -1
+        },
+        {
+            "key": "a4f61b93-0497-4778-bcf6-c11da41ed553",
+            "name": "Changement de thème de l'interface",
+            "type": "Functionality feature",
+            "parent": "2e15d408-3b64-498e-b1f9-5255fd5e7dc4",
+            "parentRelation": "Normal",
+            "presence": "Optional",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#ef66eb",
+            "help": "",
+            "nodeWeight": -1
+        },
+        {
+            "key": "b7f00846-91a5-426a-a36b-a1a4af5ac4ab",
+            "name": "Déplacement de RDV",
+            "type": "Functionality feature",
+            "parent": "8b3150c4-c940-417d-a822-20a418dea511",
+            "parentRelation": "Or",
+            "presence": "Normal",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#6e30f6",
+            "help": "",
+            "nodeWeight": -1
+        },
+        {
+            "key": "41c346a9-1f58-488f-b40b-83caa51106e5",
+            "name": "Thème de l'interface",
+            "type": "Functionality feature",
+            "parent": "2e15d408-3b64-498e-b1f9-5255fd5e7dc4",
+            "parentRelation": "Normal",
+            "presence": "Mandatory",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#b44d5e",
+            "help": "",
+            "nodeWeight": 0
+        },
+        {
+            "key": "bae6f7d7-3d46-4b23-a8df-89ffef2044c0",
+            "name": "Clair",
+            "type": "Functionality feature",
+            "parent": "41c346a9-1f58-488f-b40b-83caa51106e5",
+            "parentRelation": "Xor",
+            "presence": "Normal",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#6ee4ec",
+            "help": "",
+            "nodeWeight": 0
+        },
+        {
+            "key": "8d40dfb2-a96d-4c60-a003-aacb902990d0",
+            "name": "Sombre",
+            "type": "Functionality feature",
+            "parent": "41c346a9-1f58-488f-b40b-83caa51106e5",
+            "parentRelation": "Xor",
+            "presence": "Normal",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#fb36aa",
+            "help": "",
+            "nodeWeight": 0
+        },
+        {
+            "key": "1d3ba870-dd4c-4d30-a117-4d29f9c3efc4",
+            "name": "Icone du site alternative",
+            "type": "Functionality feature",
+            "parent": "2e15d408-3b64-498e-b1f9-5255fd5e7dc4",
+            "parentRelation": "Normal",
+            "presence": "Optional",
+            "lgFile": "",
+            "role": "",
+            "hexColor": "#35922d",
+            "help": "",
+            "nodeWeight": 0
+        }
+    ],
+    "fileResources": [],
+    "textResources": [],
+    "smartAppAssetResources": [],
+    "colorResources": [],
+    "referencedModels": [],
+    "constraints": [
+        {
+            "type": "⇒",
+            "left": {
+                "type": "∨",
+                "left": {
+                    "type": "feature",
+                    "featureKey": "c874ce7b-b5b8-44b4-bf48-5329bd1cf1ba"
+                },
+                "right": {
+                    "type": "feature",
+                    "featureKey": "b7f00846-91a5-426a-a36b-a1a4af5ac4ab"
+                }
+            },
+            "right": {
+                "type": "feature",
+                "featureKey": "8b3150c4-c940-417d-a822-20a418dea511"
+            }
+        }
+    ]
+}

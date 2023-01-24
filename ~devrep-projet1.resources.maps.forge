@@ -1,0 +1,13 @@
+{
+    "rangeSeeds": [
+        {
+            "file": "frontend/pages/_app.tsx",
+            "seeds": []
+        },
+        {
+            "file": "frontend/components/Navbar.tsx",
+            "seeds": []
+        }
+    ],
+    "fileSeeds": []
+}

@@ -22,6 +22,11 @@ import {
 } from '@tabler/icons';
 
 export default function Signup() {
+  let forcedProfession = "";
+  forcedProfession = "Médecin généraliste";
+  forcedProfession = "Médecin spécialiste";
+  forcedProfession = "Infirmier";
+
   const user = useUser();
   const router = useRouter();
   const form = useForm({
@@ -33,7 +38,7 @@ export default function Signup() {
       lastName: '',
       phoneNumber: '',
       address: '',
-      profession: '',
+      profession: forcedProfession,
     },
   });
 
@@ -143,7 +148,8 @@ export default function Signup() {
               />
               <TextInput
                 label='Profession'
-                required
+                required={forcedProfession === ""}
+                disabled={forcedProfession !== ""}
                 placeholder='Médecin généraliste'
                 type='text'
                 mb='md'

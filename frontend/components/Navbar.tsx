@@ -3,13 +3,19 @@ import { useRouter } from 'next/router';
 
 import * as userUtil from '@/src/userUtil';
 import {
+  ActionIcon,
   Badge,
   createStyles,
   Group,
   Navbar,
+  useMantineColorScheme,
 } from '@mantine/core';
 import { showNotification } from '@mantine/notifications';
 import * as icons from '@tabler/icons';
+import {
+  IconMoonStars,
+  IconSun,
+} from '@tabler/icons';
 
 const useStyles = createStyles((theme, _params, getRef) => {
   const icon = getRef('icon');
@@ -96,6 +102,22 @@ const data: LinkInfo[] = [
   { link: '/profile', label: 'Mon profil', icon: icons.IconUserCircle, filter: (user) => user != null },
 ];
 
+function ColorSchemeToggleButton() {
+  const { colorScheme, toggleColorScheme } = useMantineColorScheme();
+  const dark = colorScheme === 'dark';
+
+  return (
+    <ActionIcon
+      variant="light"
+      color={dark ? 'yellow' : 'blue'}
+      onClick={() => toggleColorScheme()}
+      title={dark ? "Mode clair" : "Mode sombre"}
+    >
+      {dark ? <IconSun size={18} /> : <IconMoonStars size={18} />}
+    </ActionIcon>
+  );
+}
+
 export function MyNavbar() {
   const { classes, cx } = useStyles();
   const router = useRouter();
@@ -136,11 +158,15 @@ export function MyNavbar() {
       </Link>
     ));
 
+  let siteIcon = <icons.IconStethoscope />;
+  siteIcon = <icons.IconAmbulance />;
+
   return (
     <Navbar width={{ sm: 300 }} p="md" className={classes.navbar}>
       <Navbar.Section grow>
         <Group className={classes.header}>
-          <icons.IconStethoscope /> Drlib {userUtil.isPro(user.data) && <Badge>Pro</Badge>}
+          {siteIcon} Drlib {userUtil.isPro(user.data) && <Badge>Pro</Badge>}
+          <ColorSchemeToggleButton />
         </Group>
         {links}
       </Navbar.Section>

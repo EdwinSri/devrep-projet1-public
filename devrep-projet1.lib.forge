@@ -1,0 +1,14 @@
+{
+    "replacements": [
+        {
+            "id": "-Without-PrisedeRDV-CannotBook",
+            "content": "true",
+            "editorExtension": ".tsx"
+        },
+        {
+            "id": "-Without-Connection-SecurityFilterChain",
+            "content": "\n                .anyRequest()\n                .permitAll();",
+            "editorExtension": ".java"
+        }
+    ]
+}
